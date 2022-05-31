@@ -1,4 +1,13 @@
-H1 { text-align: center }
+body {
+  background-color: #181e1f;
+  }
+
+.h1_type { 
+    text-align: center; 
+    color: white;
+    font-family: Noto Sans;
+   }
+
 button { text-align: center }
 
 .container {
@@ -6,12 +15,13 @@ button { text-align: center }
     position: relative;
     /*border: 3px solid green;*/
   }
-  
-  .center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
